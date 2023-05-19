@@ -1,7 +1,7 @@
 export class Ferramenta {
-    constructor(id, idMaquina, nome, quantidade, arq2d, arq3d, dataIns, dataAlt){
+    constructor(id, idFerramenta, nome, quantidade, arq2d, arq3d, dataIns, dataAlt){
         this.id = id;
-        this.idMaquina = idMaquina;
+        this.idFerramenta = idFerramenta;
         this.nome = nome;
         this.quantidade = quantidade;
         this.arq2d = arq2d;
@@ -16,5 +16,5 @@ export const getFerramenta = () => {
 }
 
 export const dbFerramenta = [
-    new Ferramenta = ('id','idMaquina','nome','quantidade','arq2d','arq3d','dataIns','dataAlt')
+    new Ferramenta (1,'idFerramenta','nome','quantidade','arq2d','arq3d','dataIns','dataAlt')
 ]

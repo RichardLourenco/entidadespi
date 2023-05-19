@@ -1,8 +1,8 @@
 export class Maquinario {
-    constructor(id, nome, idProduto, dataIns, dataAlt){
+    constructor(id, nome, idMaquinario, dataIns, dataAlt){
         this.id = id;
         this.nome = nome;
-        this.idProduto = idProduto;
+        this.idMaquinario = idMaquinario;
         this.dataIns = dataIns;
         this.dataAlt = dataAlt;
     }
@@ -13,5 +13,5 @@ export const getMaquinario = () => {
 }
  
 export const dbMaquinario = [
-    new Maquinario = ('id','nome','idProduto','dataIns','dataAlt')
+    new Maquinario (1,'nome','idMaquinario','dataIns','dataAlt')
 ]

@@ -2,9 +2,9 @@ import { getFerramenta } from "../models/modelFerramenta.js";
 
 class FerramentaController {
     static list(req,res){
-        res.json(getFerramenta)
+        res.json(getFerramenta())
     }
-    static find(req,param){
+    static find(req,res){
         res.json(req.param)
     }
 }

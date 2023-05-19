@@ -16,5 +16,5 @@ export class Produto {
  }
 
  export const dbProduto = [
-    new Produto(1,'nome','descricao','dataIns')
+    new Produto(1,'nome','descricao','dataIns'),
  ]

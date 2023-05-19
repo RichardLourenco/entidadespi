@@ -2,9 +2,9 @@ import { getMaquinario } from "../models/modelMaquinario.js";
 
 class MaquinarioController {
     static list(req,res){
-        res.json(getMaquinario)
+        res.json(getMaquinario())
     }
-    static find(req,param){
+    static find(req,res){
         res.json(req.param)
     }
 }
