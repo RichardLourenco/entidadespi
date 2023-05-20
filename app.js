@@ -1,7 +1,7 @@
 import express from 'express';
-import ProdutoRouter from './src/routes/rotaProduto.js';
-import MaquinarioRouter from './src/routes/rotaMaquinario.js';
-import FerramentaRouter from './src/routes/rotaFerramenta.js';
+import ProdutoRouter from './routes/rotaProduto.js';
+import MaquinarioRouter from './routes/rotaMaquinario.js';
+import FerramentaRouter from './routes/rotaFerramenta.js';
 
 
 const app = express()
