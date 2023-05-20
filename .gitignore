@@ -1,2 +1,2 @@
-/node_modules
-/package-lock.json
+# Ignore a pasta node_modules
+node_modules
