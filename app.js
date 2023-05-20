@@ -9,7 +9,7 @@ const port = 3000
 app.use(express.json())
 
 app.use('/Produtos', ProdutoRouter)
-app.use('/Maquinario', MaquinarioRouter)
+app.use('/Maquinarios', MaquinarioRouter)
 app.use('/Ferramentas', FerramentaRouter)
 
 app.listen(port, () => console.log(`API rodando na porta ${port}`))
